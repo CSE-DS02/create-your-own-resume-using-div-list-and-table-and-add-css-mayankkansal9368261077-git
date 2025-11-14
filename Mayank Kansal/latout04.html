@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 04</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: white;
+            margin:0;
+            padding:0;
+        }
+        #main{
+            width:400px;
+            margin:auto;
+            margin-top: 50px;
+        }
+        .a{
+            height:35px;
+            width:400px;
+            margin:10px;
+            background-color:  rgb(189, 180, 180);
+        }
+        .b{
+            width:400px;
+            margin:10px;
+            display:flex;
+        }
+        .bc{
+            height:45px;
+            width:93px;
+            margin-left:10px;
+            margin-bottom:10px;
+            background-color: rgb(189, 180, 180);
+        }
+        .bca{
+            height:45px;
+            width:92px;
+            margin-bottom:10px;
+            background-color: rgb(189, 180, 180);
+        }
+        .c{
+            width:400px;
+            margin:10px;
+            display:flex;
+        }
+        .cc{
+            height:50px;
+            width:127px;
+            background-color:  rgb(189, 180, 180);
+        }
+        .ccm{
+            height:50px;
+            width:126px;
+            margin-left:10px;
+            margin-right: 10px;
+            background-color:  rgb(189, 180, 180);
+        }
+        .d{
+            height:25px;
+            width:400px;
+            margin:10px;
+            background-color:  rgb(189, 180, 180);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="a">a</div>
+        <div class="b">
+            <div class="br">
+                <div class="bca">baa</div>
+                <div class="bca">bab</div>
+                <div class="bca">bac</div>
+                <div class="bca">bad</div>
+            </div>
+            <div class="br">
+                <div class="bc">bba</div>
+                <div class="bc">bbb</div>
+                <div class="bc">bbc</div>
+                <div class="bc">bbd</div>
+            </div>
+            <div class="br">
+                <div class="bc">bca</div>
+                <div class="bc">bcb</div>
+                <div class="bc">bcc</div>
+                <div class="bc">bcd</div>
+            </div>
+            <div class="br">
+                <div class="bc">bda</div>
+                <div class="bc">bdb</div>
+                <div class="bc">bdc</div>
+                <div class="bc">bdd</div>
+            </div>
+        </div>
+        <div class="c">
+            <div class="cc">ca</div>
+            <div class="ccm">cb</div>
+            <div class="cc">cc</div>
+        </div>
+        <div class="d">D</div>
+    </div>
+    
+</body>
+</html>
